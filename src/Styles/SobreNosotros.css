@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Raleway;
+    src: url(../Fonts/Raleway-Light.ttf);
+}
+.about {
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    width: 80%;
+    color: #000;
+}
+.tituloAbout {
+    width: 100%;
+}
+.tituloAbout h1{
+    font-size: 5rem;
+}
+.about h2 {
+    font-size: 2rem;
+    font-family: Raleway;
+}
+.about h3 {
+    font-family: Raleway;
+    font-size: 1.5rem;
+}
+.about p {
+    font-size: 1.3rem;
+    font-family: Raleway;
+}
+.sobremi {
+    width: 80%;
+}
+.sobreTexto {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    text-align: left;
+}
+.sobreTexto ul {
+    list-style: none;
+}
+.mision, .vision {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.mision ul, .vision ul {
+    list-style:url(../Icons/cup.png);
+}
+.titMision, .titVision {
+    width: 50%;
+    border-bottom: 2px solid #000;
+}
+.inicio {
+    margin-top: 2rem;
+    border-top: 1px solid #000;
+}

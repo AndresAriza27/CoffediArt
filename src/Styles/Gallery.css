@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Amberly;
+    src: url(../Fonts/Amberly-Medium.ttf);
+}
+
+h1{
+    font-size: 10rem;
+    text-align: center;
+    color: #000;
+    font-family: Amberly;
+}
+.galeria {
+    width: 100%;
+    
+}
+@media only screen and (max-width:1024px) {
+    .TituloJumbotron {
+        font-size: 2rem;
+    }
+    .galeria {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+    }
+}

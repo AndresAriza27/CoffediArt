@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Raleway;
+    src: url('../Fonts/Raleway-Light.ttf');
+}
+.footer {
+    margin-top: 4rem;
+    background-color: #0000001f;
+    width: 100%;
+    height: 100%;
+    font-family: Raleway;
+    color: #000;
+    display: flex;
+}
+.redes {
+    flex-direction: column;
+    display: flex;
+    width: 70%;
+    padding-top: 1rem;
+    justify-content: center;
+    text-align: center;
+
+}
+.titRedes {
+    padding: 1rem;
+    justify-content: center;
+    margin-left: 17.5%;
+    width: 70%;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    font-size: 1.7rem;
+}
+.redesSociales {
+    justify-content: center;
+    width: 100%;
+    font-family: Raleway;
+    color: #000;
+    display: flex;
+    padding-bottom: 2rem;
+}
+.RedSocial {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.icon {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+.iconFB {
+    width: 70px;
+    height: 70px;
+}
+.bloque1 {
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem;
+}
+.bloque2 {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 30%;
+    text-align: center;
+    margin: 1rem;
+}
+.mascota {
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: end;
+    width: 30%;
+}
+.mscImg {
+    width: 100%;
+    bottom: 0;
+}
+
+@media only screen and (max-width:1024px) {
+    .footer {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        display: flex;
+        width: 100%;
+    }
+    .redesSociales {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .titRedes {
+        padding: 0rem;
+        font-size: 2rem;
+    }
+    .bloque1 {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .redes {
+        width: 100%;
+    }
+    .icon {
+        padding-right: 1rem;
+        padding-left: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+    }
+    .iconFB {
+        width: 70px;
+        height: 70px;
+    }
+    .bloque2 {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .mascota {
+        bottom: 0;
+        right: 0;
+        display: flex;
+        justify-content: end;
+        width: 80%;
+    }
+}

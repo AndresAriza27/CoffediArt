@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Raleway;
+    src: url(../Fonts/Raleway-Light.ttf);
+}
+.filters {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.filtros {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+label {
+    margin: 1rem;
+    font-family: Raleway;
+    color: #000;
+}
+button {
+    margin: 1rem;
+    width: 150px;
+    font-size: 1rem;
+    border: 1px solid #000;
+    color: #fff;
+    background: #2e2e2e;
+    font-family: Raleway;
+}
+select {
+    height: 2rem;
+    text-align: center;
+    width: 10rem;
+    font-size: 1rem;
+    font-family: Raleway;
+}
+@media only screen and (max-width:1024px) {
+    .filters {
+        width: 100%;
+    }
+    label {
+        font-size: 1.2rem;
+    }
+    select {
+        text-align: center;
+        width: 10rem;
+        font-size: 1rem;
+        font-family: Raleway;
+    }
+    button{
+        font-size: 1rem;
+        border: 1px solid #000;
+        color: #fff;
+        background: #2e2e2e;
+        font-family: Raleway;
+    }
+    .filtros {
+        display: block;
+    }
+    
+}
